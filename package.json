@@ -1,0 +1,20 @@
+{
+	"name": "@whitekiwi/issues",
+	"version": "1.0.0",
+	"repository": "git@github.com:whitekiwi/issues.git",
+	"author": "Whitekiwi <jh145478@gmail.com>",
+	"scripts": {
+		"start": "node lib/index.js"
+	},
+	"devDependencies": {
+		"@kiwi-lib/eslint-config": "^2",
+		"@types/node": "^16",
+		"ts-node": "^10",
+		"typescript": "^4.6.4"
+	},
+	"license": "MIT",
+	"prettier": "@kiwi-lib/eslint-config/prettier.config",
+	"dependencies": {
+		"@aws-sdk/lib-storage": "^3.367.0"
+	}
+}
